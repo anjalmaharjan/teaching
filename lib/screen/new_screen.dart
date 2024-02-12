@@ -85,15 +85,6 @@ class _ProfileTabState extends State<ProfileTab> {
               const SizedBox(
                 width: 12,
               ),
-              ProfileSwitchButton(
-                isSelected: isSelected == 1 ? true : false,
-                text: 'Register',
-                onPressed: () {
-                  setState(() {
-                    isSelected = 1;
-                  });
-                },
-              ),
             ],
           ),
         )
